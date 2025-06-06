@@ -15,7 +15,7 @@ public static class DatabaseInitializer
             string createTableQueryUsers = @"
                     CREATE TABLE IF NOT EXISTS Users (
                         Id INTEGER PRIMARY KEY AUTOINCREMENT,
-                        FristName TEXT NOT NULL,
+                        FirstName TEXT NOT NULL,
                         LastName TEXT NOT NULL,
                         Email TEXT NOT NULL UNIQUE
                     );";
