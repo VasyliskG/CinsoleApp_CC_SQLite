@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinsoleApp_CC_SQLite", "CinsoleApp_CC_SQLite\CinsoleApp_CC_SQLite.csproj", "{BB120CC8-9BEE-4948-8CD8-09739C73E443}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB120CC8-9BEE-4948-8CD8-09739C73E443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB120CC8-9BEE-4948-8CD8-09739C73E443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB120CC8-9BEE-4948-8CD8-09739C73E443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB120CC8-9BEE-4948-8CD8-09739C73E443}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
