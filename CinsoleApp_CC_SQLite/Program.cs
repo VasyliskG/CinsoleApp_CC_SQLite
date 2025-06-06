@@ -1,10 +1,13 @@
 ﻿using Spectre.Console;
 using System.Data.SQLite;
+using CinsoleApp_CC_SQLite;
 
 public static class Program
 {
     public static void Main(string[] args)
     {
+        DatabaseInitializer.CreateDatabase();
+        
         while (true)
         {
             var option = AnsiConsole.Prompt(
