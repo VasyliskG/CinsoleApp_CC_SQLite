@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CinsoleApp_CC_SQLite")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1fba40415b469b1998512edf9ab772140cc5a1d6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4feef864c2bc8ca0acf88c3b6610d99cbd7faa8d")]
 [assembly: System.Reflection.AssemblyProductAttribute("CinsoleApp_CC_SQLite")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CinsoleApp_CC_SQLite")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

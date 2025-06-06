@@ -8,9 +8,7 @@ public static class DatabaseInitializer
 {
     public static void CreateDatabase()
     {
-        string connectionString = $"Data Source=app.db;Version=3;";
-
-        using (var connection = new SQLiteConnection(connectionString))
+        using (var connection = new SQLiteConnection(GlobalSettings.ConnectionString))
         {
             connection.Open();
 
@@ -23,7 +21,7 @@ public static class DatabaseInitializer
                     );";
 
             string createTableQueryProducts = @"
-                    CREATE TABLE IF NOT EXISTS Users (
+                    CREATE TABLE IF NOT EXISTS Products (
                         ProductId INTEGER PRIMARY KEY AUTOINCREMENT,
                         Name TEXT NOT NULL,
                         Price REAL
